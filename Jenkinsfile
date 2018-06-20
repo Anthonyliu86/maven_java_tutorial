@@ -1,9 +1,9 @@
 pipeline {
     agent {
-        label "windows"
+        any
     }
     tools {
-        maven 'Maven3.5.3'
+        maven 'Maven-3.5.3'
         jdk 'java8'
     }
     stages {
